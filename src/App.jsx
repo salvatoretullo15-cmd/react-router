@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import Homepage from './pages/Homepage'
 import Chisiamo from './pages/Chisiamo'
 import Prodotti from './pages/Prodotti'
-
+import DefaultLayout from './layouts/DefaultLayout'
 
 function App() {
   
