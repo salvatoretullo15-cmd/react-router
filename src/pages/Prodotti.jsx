@@ -17,7 +17,7 @@ export default function Prodotti() {
     return(
         <>
             <div className="container-fluid row text-center">
-                <h1>I nostri prodotti</h1>
+                <h1>Premi per i vincitori</h1>
                 <div>
                     <div className="row row-cols-1 row-cols-md-5 g-5">
                         {products.map(product => (
@@ -27,8 +27,9 @@ export default function Prodotti() {
                                         <img src={product.image} class="card-img-top mb-5" alt={product.text}/>
                                     </div>
                                     <div className="card-body">
-                                        <h5 className="card-title">{product.title}</h5>
-                                        <p className="card-text">prezzo: {product.price} $</p>
+                                        <h4 className="card-title">{product.title}</h4>
+                                        <p className="card-text">prezzo in caso di vincita: 0.00 $ 🤑</p>
+                                        <p className="card-text">prezzo in caso di perdita: {product.price} $</p>
                                         <button className="btn btn-primary">
                                             acquista adesso
                                         </button>

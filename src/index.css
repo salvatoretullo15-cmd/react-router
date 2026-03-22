@@ -8,3 +8,14 @@ img{
 .img-card{
     max-width: 50%;
 }
+
+.jumbotron{
+    background-image: url(/public/ufficio-direttore.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+.devil{
+    max-width: 10%;
+}
