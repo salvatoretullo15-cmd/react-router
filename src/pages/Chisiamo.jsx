@@ -35,8 +35,8 @@ export default function Chisiamo() {
             <div className="card mt-4 mb-4">
               <div className="card-body">
                 <div className="devil d-flex">
-                        <img src="" alt="" />
-                        <img src="" alt="" />
+                        <img src="./public/tizio-mascherato.jpeg" alt="uomo mascherato" />
+                        <img src="./public/tizio-mascherato-con-birre.jpeg" alt="uomo mascherato con birre" />
                 </div>
                 <h2 className="card-title">L'Architetto della Sorveglianza</h2>
                 <h5 className="card-subtitle text-danger">The Ghost</h5>
@@ -52,8 +52,11 @@ export default function Chisiamo() {
             <div className="card mt-4 mb-4">
               <div className="card-body">
                 <div className="devil d-flex">
-                        <img src="" alt="" />
-                        <img src="" alt="" />
+                        <img src="./public/rikkione-erbato.jpeg" alt="un mio amico con erba in testa" />
+                        <img src="./public/rikkione-scozzato.jpeg" alt="un mio amicop con i filtri" />
+                        <img src="./public/rikkione-sessuale.jpeg" alt="un mio amico con la parruca" />
+                        <img src="./public/rikkione-carabizzioto.jpeg" alt="un mio amico con la divisa generata dall'ia" />
+                        <img src="./public/rikkione-allucinato.jpeg" alt="un mio amico sotto effetti allucinogeni" />
                 </div>
                 <h2 className="card-title">L'Analista di Burnout </h2>
                 <h5 className="card-subtitle text-danger">The Optimizer</h5>
