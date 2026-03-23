@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Prodotti() {
 
@@ -30,9 +31,7 @@ export default function Prodotti() {
                                         <h4 className="card-title">{product.title}</h4>
                                         <p className="card-text">prezzo in caso di vincita: 0.00 $ 🤑</p>
                                         <p className="card-text">prezzo in caso di perdita: {product.price} $</p>
-                                        <button className="btn btn-primary">
-                                            acquista adesso
-                                        </button>
+                                        <Link to={`/prodotti/${product.id}`}>scheda prodotto</Link>
                                     </div>
                                 </div>
                             </div>
